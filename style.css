@@ -1,0 +1,63 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: 'Sriracha', cursive;
+}
+.heading{
+    background-color: lightskyblue;
+    color: midnightblue;
+    width: 100%;
+    border-radius: 50px;
+    border: 3px navy double;
+    margin: 0;
+}
+p{
+    font-size: 17px;
+    color: rgb(179, 0, 179);
+}
+#speed_div{
+    float: left;
+}
+.disk_image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+h3{
+    color: white;
+    background-color: blue;
+    width: 200px;
+    font-size: 226px;
+}
+#volume_div{
+    float: right;
+}
+.footer{
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(51, 117, 240);
+    color: white;
+    line-height: 1.8;
+    font-size: 18px;
+}
+.btn{
+    margin:10px;
+    font-size:22px;
+}
+canvas{
+    border: 3px dashed rgb(150, 150, 255);
+    animation-name: borders;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes borders{
+    from{
+        box-shadow:10px 10px 40px rgb(0, 0, 255);
+    }
+    to{
+        box-shadow:10px 10px 40px rgb(181, 181, 255);
+    }
+}
