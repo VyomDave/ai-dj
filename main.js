@@ -37,7 +37,7 @@ function gotPoses(results){
         console.log(results)
         leftwristX = floor(results[0].pose.leftWrist.x)
         leftwristY = floor(results[0].pose.leftWrist.y)
-        rightwristX = fllor(results[0].pose.rightWrist.x)
+        rightwristX = floor(results[0].pose.rightWrist.x)
         rightwristY = floor(results[0].pose.rightWrist.y)
         leftwristscore = results[0].pose.keypoints[9].score
         rightwristscore = results[0].pose.keypoints[10].score
